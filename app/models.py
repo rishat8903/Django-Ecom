@@ -7,66 +7,69 @@ from django.contrib.auth.models import User
 STATE_CHOICES =(
 
 
-('Andaman & Nicobar Islands', 'Andaman & Nicobar Islands'),
-('Andhra Pradesh', 'Andhra Pradesh'),
-('Arunachal Pradesh', 'Arunachal Pradesh'),
-('Assam', 'Assam'),
-
-('Bihar', 'Bihar'),
-
-('Chandigarh', 'Chandigarh'),
-
-('Chattisgarh', 'Chattisgarh'),
-
-('Dadra & Nagar Haveli', 'Dadra & Nagar Haveli'),
-
-('Daman and Diu', 'Daman and Diu'),
-
-('Delhi', 'Delhi'),
-
-('Goa', 'Goa'),
-
-('Gujrat', 'Gujrat'),
-
-('Haryana', 'Haryana'),
-
-
-
-('Himachal Pradesh', 'Himachal Pradesh'),
-('Jammu & Kashmir', 'Jammu & Kashmir'),
-
-
-('Jharkhand', 'Jharkhand'),
-
-('Karnataka', 'Karnataka'),
-
-('Kerala', 'Kerala'),
-
-('Lakshadweep', 'Lakshadweep'),
-
-('Madhya Pradesh', 'Madhya Pradesh'),
-
-('Maharashtra', 'Maharashtra'),
-
-('Manipur', 'Manipur'),
-
-('Meghalaya', 'Meghalaya'),
-
-('Mizoram', 'Mizoram'),
-
-('Nagaland', 'Nagaland'),
-
-('Odisa', 'Odisa'),
-
-('Puducherry', 'Puducherry'),
-
-('Punjab', 'Punjab'),
-
-('Rajasthan', 'Rajasthan'),
-
-('Sikkim', 'Sikkim'),
-
-('Tamil Nadu', 'Tamil Nadu'),
+        ('BAG', 'Bagerhat'),
+        ('BAN', 'Bandarban'),
+        ('BAR', 'Barguna'),
+        ('BRS', 'Barishal'),
+        ('BHO', 'Bhola'),
+        ('BOG', 'Bogra'),
+        ('BRA', 'Brahmanbaria'),
+        ('CHA', 'Chandpur'),
+        ('CHT', 'Chattogram'),
+        ('CHU', 'Chuadanga'),
+        ('COM', 'Comilla'),
+        ('COX', 'Cox\'s Bazar'),
+        ('DHA', 'Dhaka'),
+        ('DIN', 'Dinajpur'),
+        ('FAR', 'Faridpur'),
+        ('FEN', 'Feni'),
+        ('GAI', 'Gaibandha'),
+        ('GAZ', 'Gazipur'),
+        ('GOP', 'Gopalganj'),
+        ('HAB', 'Habiganj'),
+        ('JAM', 'Jamalpur'),
+        ('JES', 'Jashore'),
+        ('JHA', 'Jhalokati'),
+        ('JHN', 'Jhenaidah'),
+        ('JOY', 'Joypurhat'),
+        ('KHA', 'Khagrachari'),
+        ('KHU', 'Khulna'),
+        ('KIS', 'Kishoreganj'),
+        ('KUR', 'Kurigram'),
+        ('KUS', 'Kushtia'),
+        ('LAK', 'Lakshmipur'),
+        ('LAL', 'Lalmonirhat'),
+        ('MAD', 'Madaripur'),
+        ('MAG', 'Magura'),
+        ('MAN', 'Manikganj'),
+        ('MAU', 'Maulvibazar'),
+        ('MEH', 'Meherpur'),
+        ('MUN', 'Munshiganj'),
+        ('MYM', 'Mymensingh'),
+        ('NAO', 'Naogaon'),
+        ('NAR', 'Narail'),
+        ('NAR2', 'Narayanganj'),
+        ('NRS', 'Narsingdi'),
+        ('NAT', 'Natore'),
+        ('NET', 'Netrokona'),
+        ('NIL', 'Nilphamari'),
+        ('NOA', 'Noakhali'),
+        ('PAB', 'Pabna'),
+        ('PAN', 'Panchagarh'),
+        ('PAT', 'Patuakhali'),
+        ('PIRO', 'Pirojpur'),
+        ('RAJB', 'Rajbari'),
+        ('RAJS', 'Rajshahi'),
+        ('RAN', 'Rangamati'),
+        ('RAN2', 'Rangpur'),
+        ('SAT', 'Satkhira'),
+        ('SHA', 'Shariatpur'),
+        ('SHER', 'Sherpur'),
+        ('SIR', 'Sirajganj'),
+        ('SUN', 'Sunamganj'),
+        ('SYL', 'Sylhet'),
+        ('TAN', 'Tangail'),
+        ('THA', 'Thakurgaon'),
 )
 
 
